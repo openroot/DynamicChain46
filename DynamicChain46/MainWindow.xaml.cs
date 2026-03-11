@@ -19,6 +19,7 @@ namespace DynamicChain46
 		public MainWindow()
 		{
 			InitializeComponent();
+			Trade.Share share1 = new Trade.Share();
 		}
 	}
 }
