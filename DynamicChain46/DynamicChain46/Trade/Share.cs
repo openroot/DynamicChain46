@@ -6,6 +6,7 @@ namespace DynamicChain46.Trade
 
 	public enum ShareCategory
 	{
+		Default,
 		Finance,
 		Currency,
 		Transport,
@@ -13,8 +14,8 @@ namespace DynamicChain46.Trade
 		Technology,
 		Healthcare,
 		Agriculture,
+		Handicraft,
 		Textile,
-		Power,
 		Realty
 	}
 
@@ -24,96 +25,119 @@ namespace DynamicChain46.Trade
 	{
 		// General Properties (Attributes)
 
-		private Dictionary<long, string> profile { get; set; }
-		protected Queue<string> account { get; set; }
-		public long id { get; set; }
-		public string name { get; set; }
-		public ShareCategory category { get; set; }
-		public double balance { get; set; }
-		public double fund { get; set; }
-		public string reference { get; set; }
-		public bool active { get; set; }
-		protected Stack<string> inventory { get; set; }
+		private Dictionary<long, string> @record { get; set; }
+		protected Queue<string> series { get; set; }
+		public string state { get; set; }
+		public string detail { get; set; }
+		public ShareCategory @group { get; set; }
+		public string factor { get; set; }
+		public string amount { get; set; }
+		public string serial { get; set; }
+		public string note { get; set; }
+		protected Stack<string> market { get; set; }
 
 		// Constructor Functions (Initialisations)
 
 		public Share()
 		{
-			Console.WriteLine($"Share instance created successfully.");
-			Console.WriteLine($"Initialising default values...");
-			this.profile = new Dictionary<long, string>();
-			this.account = new Queue<string>();
-			this.id = 0;
-			this.name = "Unnamed Share";
-			this.category = ShareCategory.Finance;
-			this.balance = 0.0;
-			this.fund = 0.0;
-			this.reference = "N/A";
-			this.active = false;
-			this.inventory = new Stack<string>();
+			this.record = new Dictionary<long, string>();
+			this.series = new Queue<string>();
+			this.state = string.Empty;
+			this.detail = string.Empty;
+			this.group = ShareCategory.Default;
+			this.factor = string.Empty;
+			this.amount = string.Empty;
+			this.serial = string.Empty;
+			this.note = string.Empty;
+			this.market = new Stack<string>();
 		}
 
 		// Regular Functions (Methods)
 
-		private void SourceProfile(Dictionary<long, string> profile)
+		private string SourceProfile(Dictionary<long, string> record)
 		{
-			this.profile = profile;
-			Console.WriteLine($"Total number of submitted source profiles: {this.profile.Count}");
+			this.record = record;
+			string shareholder = this.record.ToString() ?? string.Empty;
+			return shareholder;
 		}
 
-		protected void ResourceAccount(Queue<string> account)
+		protected string ResourceAccount(Queue<string> series)
 		{
-			this.account = account;
-			Console.WriteLine($"Total number of trading resource accounts: {this.account.Count}");
+			this.series = series;
+			string dividend = this.series.ToString() ?? string.Empty;
+			return dividend;
 		}
 
-		public void BatchId(long id)
+		public string BatchIdentity(string state)
 		{
-			this.id = id;
-			Console.WriteLine($"Batch ID updated to: {this.id}");
+			this.state = state;
+			string component = this.state.ToString();
+			return component;
 		}
 
-		public void AssetName(string name)
+		public string AssetDescription(string detail)
 		{
-			this.name = name;
-			Console.WriteLine($"Asset name assigned to: {this.name}");
+			this.detail = detail;
+			string assignment = this.detail.ToString();
+			return assignment;
 		}
 
-		public void SortCategory(ShareCategory category)
+		public string SortCategory(ShareCategory group)
 		{
-			this.category = category;
-			Console.WriteLine($"Share category sorted to: {this.category}");
+			this.group = group;
+			string appendix = this.group.ToString();
+			return appendix;
 		}
 
-		public void RefreshBalance(double balance)
+		public string LedgerBalance(string factor)
 		{
-			this.balance = balance;
-			Console.WriteLine($"Total balance refreshed to: {this.balance}");
+			this.factor = factor;
+			string registration = this.factor.ToString();
+			return registration;
 		}
 
-		public void DistributeFund(double fund)
+		public string DistributeFund(string amount)
 		{
-			this.fund = fund;
-			Console.WriteLine($"Investment fund distributed to: {this.fund}");
+			this.amount = amount;
+			string investment = this.amount.ToString();
+			return investment;
 		}
 
-		public void CompanyReference(string reference)
+		public string CompanyReference(string serial)
 		{
-			this.reference = reference;
-			Console.WriteLine($"Company reference set to: {this.reference}");
+			this.serial = serial;
+			string allocation = this.serial;
+			return allocation;
 		}
 
-		public void IsActive(bool active)
+		public string ActiveRepository(string note)
 		{
-			this.active = active;
-			string status = active ? "Active" : "Inactive";
-			Console.WriteLine($"Availability status upgraded to: {status}");
+			this.note = note;
+			string management = this.note.ToString();
+			return management;
 		}
 
-		protected void StockInventory(Stack<string> inventory)
+		protected string StockInventory(Stack<string> market)
 		{
-			this.inventory = inventory;
-			Console.WriteLine($"Total number of allocated stock inventories: {this.inventory.Count}");
+			this.market = market;
+			string exchange = this.market.ToString() ?? string.Empty;
+			return exchange;
+		}
+
+		// Destructor Functions (Terminations)
+
+		~Share()
+		{
+			this.record = new Dictionary<long, string>();
+			this.series = new Queue<string>();
+			this.state = string.Empty;
+			this.detail = string.Empty;
+			this.group = ShareCategory.Default;
+			this.factor = string.Empty;
+			this.amount = string.Empty;
+			this.serial = string.Empty;
+			this.note = string.Empty;
+			this.market = new Stack<string>();
 		}
 	}
 }
