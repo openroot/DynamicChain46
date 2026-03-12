@@ -4,9 +4,9 @@ namespace DynamicChain46.Trade
 {
 	// Basic Enums (Options)
 
-	public enum ShareCategory
+	public enum EquityCatalogue
 	{
-		Default,
+		None,
 		Finance,
 		Currency,
 		Transport,
@@ -29,7 +29,7 @@ namespace DynamicChain46.Trade
 		protected Queue<string> series { get; set; }
 		public string state { get; set; }
 		public string detail { get; set; }
-		public ShareCategory @group { get; set; }
+		public EquityCatalogue @group { get; set; }
 		public string factor { get; set; }
 		public string amount { get; set; }
 		public string serial { get; set; }
@@ -44,7 +44,7 @@ namespace DynamicChain46.Trade
 			this.series = new Queue<string>();
 			this.state = string.Empty;
 			this.detail = string.Empty;
-			this.group = ShareCategory.Default;
+			this.group = EquityCatalogue.None;
 			this.factor = string.Empty;
 			this.amount = string.Empty;
 			this.serial = string.Empty;
@@ -82,7 +82,7 @@ namespace DynamicChain46.Trade
 			return assignment;
 		}
 
-		public string SortCategory(ShareCategory group)
+		public string SortCategory(EquityCatalogue group)
 		{
 			this.group = group;
 			string appendix = this.group.ToString();
@@ -132,7 +132,7 @@ namespace DynamicChain46.Trade
 			this.series = new Queue<string>();
 			this.state = string.Empty;
 			this.detail = string.Empty;
-			this.group = ShareCategory.Default;
+			this.group = EquityCatalogue.None;
 			this.factor = string.Empty;
 			this.amount = string.Empty;
 			this.serial = string.Empty;
