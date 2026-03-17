@@ -1,6 +1,6 @@
 ﻿// Main Namespaces (Libraries)
 
-namespace DynamicChain46.Trade
+namespace Trade
 {
 	// Basic Enums (Options)
 
@@ -54,7 +54,7 @@ namespace DynamicChain46.Trade
 
 		// Regular Functions (Methods)
 
-		private string SourceProfile(Dictionary<long, string> record)
+		private string SourceProfile(Dictionary<long, string> @record)
 		{
 			this.record = record;
 			string shareholder = this.record.ToString() ?? string.Empty;
@@ -82,7 +82,7 @@ namespace DynamicChain46.Trade
 			return assignment;
 		}
 
-		public string SortCategory(EquityCatalogue group)
+		public string SortCategory(EquityCatalogue @group)
 		{
 			this.group = group;
 			string appendix = this.group.ToString();
