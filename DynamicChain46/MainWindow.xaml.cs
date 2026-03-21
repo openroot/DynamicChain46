@@ -11,8 +11,8 @@ namespace DynamicChain46
 		{
 			InitializeComponent();
 
-			Trade.Share aShare = new Trade.Share();
 			Learn.Study myStudy = new Learn.Study();
+			Trade.Share aShare = new Trade.Share();
 		}
 	}
 }

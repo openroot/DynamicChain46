@@ -1,6 +1,6 @@
 ﻿// Main Namespaces (Libraries)
 
-namespace Trade
+namespace DynamicChain46.Trade
 {
 	// Basic Enums (Options)
 

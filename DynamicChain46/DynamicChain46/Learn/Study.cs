@@ -1,10 +1,10 @@
 ﻿// Main Namespaces (Libraries)
 
-namespace Learn
+namespace DynamicChain46.Learn
 {
 	// Basic Enums (Options)
 
-	public enum PrimarySubject
+	public enum MainSource
 	{
 		None,
 		Science,
@@ -12,7 +12,7 @@ namespace Learn
 		Programming,
 		Management,
 		Engineering,
-		Medical,
+		Architecture,
 		Cultivation,
 		Development,
 		Economics,
@@ -27,12 +27,12 @@ namespace Learn
 
 		private Dictionary<long, string> metadata { get; set; }
 		protected Queue<string> keynote { get; set; }
-		public string hash { get; set; }
-		public string mark { get; set; }
-		public PrimarySubject chapter { get; set; }
+		public string hashtag { get; set; }
+		public string marquee { get; set; }
+		public MainSource chapter { get; set; }
 		public string theorem { get; set; }
 		public string modulus { get; set; }
-		public string data { get; set; }
+		public string dataset { get; set; }
 		public string formula { get; set; }
 		protected Stack<string> notebook { get; set; }
 
@@ -42,12 +42,12 @@ namespace Learn
 		{
 			this.metadata = new Dictionary<long, string>();
 			this.keynote = new Queue<string>();
-			this.hash = string.Empty;
-			this.mark = string.Empty;
-			this.chapter = PrimarySubject.None;
+			this.hashtag = string.Empty;
+			this.marquee = string.Empty;
+			this.chapter = MainSource.None;
 			this.theorem = string.Empty;
 			this.modulus = string.Empty;
-			this.data = string.Empty;
+			this.dataset = string.Empty;
 			this.formula = string.Empty;
 			this.notebook = new Stack<string>();
 		}
@@ -68,21 +68,21 @@ namespace Learn
 			return typography;
 		}
 
-		public string ContextualOrder(string hash)
+		public string UniversalUnit(string hashtag)
 		{
-			this.hash = hash;
-			string summary = this.hash.ToString();
+			this.hashtag = hashtag;
+			string summary = this.hashtag.ToString();
 			return summary;
 		}
 
-		public string UniversalConstant(string mark)
+		public string StructuralOrder(string marquee)
 		{
-			this.mark = mark;
-			string theory = this.mark.ToString();
+			this.marquee = marquee;
+			string theory = this.marquee.ToString();
 			return theory;
 		}
 
-		public string DifferentialSet(PrimarySubject chapter)
+		public string DifferentialSet(MainSource chapter)
 		{
 			this.chapter = chapter;
 			string terminology = this.chapter.ToString();
@@ -103,10 +103,10 @@ namespace Learn
 			return verbosity;
 		}
 
-		public string LogarithmicValue(string data)
+		public string LogarithmicValue(string dataset)
 		{
-			this.data = data;
-			string scrutiny = this.data.ToString();
+			this.dataset = dataset;
+			string scrutiny = this.dataset.ToString();
 			return scrutiny;
 		}
 
@@ -130,12 +130,12 @@ namespace Learn
 		{
 			this.metadata = new Dictionary<long, string>();
 			this.keynote = new Queue<string>();
-			this.hash = string.Empty;
-			this.mark = string.Empty;
-			this.chapter = PrimarySubject.None;
+			this.hashtag = string.Empty;
+			this.marquee = string.Empty;
+			this.chapter = MainSource.None;
 			this.theorem = string.Empty;
 			this.modulus = string.Empty;
-			this.data = string.Empty;
+			this.dataset = string.Empty;
 			this.formula = string.Empty;
 			this.notebook = new Stack<string>();
 		}
