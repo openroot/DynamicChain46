@@ -27,6 +27,13 @@ namespace Learn
 
 		private Dictionary<long, string> metadata { get; set; }
 		protected Queue<string> keynote { get; set; }
+		public string hash { get; set; }
+		public string mark { get; set; }
+		public PrimarySubject chapter { get; set; }
+		public string theorem { get; set; }
+		public string modulus { get; set; }
+		public string data { get; set; }
+		public string formula { get; set; }
 		protected Stack<string> notebook { get; set; }
 
 		// Constructor Functions (Initialisations)
@@ -35,6 +42,13 @@ namespace Learn
 		{
 			this.metadata = new Dictionary<long, string>();
 			this.keynote = new Queue<string>();
+			this.hash = string.Empty;
+			this.mark = string.Empty;
+			this.chapter = PrimarySubject.None;
+			this.theorem = string.Empty;
+			this.modulus = string.Empty;
+			this.data = string.Empty;
+			this.formula = string.Empty;
 			this.notebook = new Stack<string>();
 		}
 
@@ -54,39 +68,53 @@ namespace Learn
 			return typography;
 		}
 
-		public void ContextualOrder(string hash)
+		public string ContextualOrder(string hash)
 		{
-			string summary = string.Empty;
+			this.hash = hash;
+			string summary = this.hash.ToString();
+			return summary;
 		}
 
-		public void UniversalConstant(string mark)
+		public string UniversalConstant(string mark)
 		{
-			string theory = string.Empty;
+			this.mark = mark;
+			string theory = this.mark.ToString();
+			return theory;
 		}
 
-		public void DifferentialSet(PrimarySubject chapter)
+		public string DifferentialSet(PrimarySubject chapter)
 		{
-			string terminology = string.Empty;
+			this.chapter = chapter;
+			string terminology = this.chapter.ToString();
+			return terminology;
 		}
 
-		public void SubstitutionLogic(string theorem)
+		public string SubstitutionLogic(string theorem)
 		{
-			string dictionary = string.Empty;
+			this.theorem = theorem;
+			string dictionary = this.theorem.ToString();
+			return dictionary;
 		}
 
-		public void IntegrationPoint(string modulus)
+		public string IntegrationPoint(string modulus)
 		{
-			string verbosity = string.Empty;
+			this.modulus = modulus;
+			string verbosity = this.modulus.ToString();
+			return verbosity;
 		}
 
-		public void LogarithmicValue(string data)
+		public string LogarithmicValue(string data)
 		{
-			string scrutiny = string.Empty;
+			this.data = data;
+			string scrutiny = this.data.ToString();
+			return scrutiny;
 		}
 
-		public void ExponentialForm(string formula)
+		public string ExponentialForm(string formula)
 		{
-			string analogy = string.Empty;
+			this.formula = formula;
+			string analogy = this.formula.ToString();
+			return analogy;
 		}
 
 		protected string WriteContent(Stack<string> notebook)
@@ -102,6 +130,13 @@ namespace Learn
 		{
 			this.metadata = new Dictionary<long, string>();
 			this.keynote = new Queue<string>();
+			this.hash = string.Empty;
+			this.mark = string.Empty;
+			this.chapter = PrimarySubject.None;
+			this.theorem = string.Empty;
+			this.modulus = string.Empty;
+			this.data = string.Empty;
+			this.formula = string.Empty;
 			this.notebook = new Stack<string>();
 		}
 	}
