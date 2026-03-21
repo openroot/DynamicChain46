@@ -7,4 +7,9 @@
 	<ImplicitUsings>enable</ImplicitUsings>
 	<UseWPF>true</UseWPF>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DynamicChain46\Learn\Dump\" />
+    <Folder Include="DynamicChain46\Trade\Dump\" />
+  </ItemGroup>
 </Project>
