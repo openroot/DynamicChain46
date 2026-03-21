@@ -26,7 +26,7 @@ namespace Learn
 		// General Properties (Attributes)
 
 		private Dictionary<long, string> metadata { get; set; }
-		protected Queue<string> keynode { get; set; }
+		protected Queue<string> keynote { get; set; }
 		protected Stack<string> notebook { get; set; }
 
 		// Constructor Functions (Initialisations)
@@ -34,7 +34,7 @@ namespace Learn
 		public Study()
 		{
 			this.metadata = new Dictionary<long, string>();
-			this.keynode = new Queue<string>();
+			this.keynote = new Queue<string>();
 			this.notebook = new Stack<string>();
 		}
 
@@ -47,11 +47,41 @@ namespace Learn
 			return vocabulary;
 		}
 
-		protected string ReadStream(Queue<string> keynode)
+		protected string ReadStream(Queue<string> keynote)
 		{
-			this.keynode = keynode;
-			string typography = this.keynode.ToString() ?? string.Empty;
+			this.keynote = keynote;
+			string typography = this.keynote.ToString() ?? string.Empty;
 			return typography;
+		}
+
+		public void ContextualOrder(string hash)
+		{
+			string summary = string.Empty;
+		}
+
+		public void UniversalConstant(string mark)
+		{
+		}
+
+		public void DifferentialSet(PrimarySubject chapter)
+		{
+			string terminology = string.Empty;
+		}
+
+		public void SubstitutionLogic(string theorem)
+		{
+		}
+
+		public void IntegrationPoint(string modulus)
+		{
+		}
+
+		public void LogarithmicValue(string data)
+		{
+		}
+
+		public void ExponentialForm(string formula)
+		{
 		}
 
 		protected string WriteContent(Stack<string> notebook)
@@ -66,7 +96,7 @@ namespace Learn
 		~Study()
 		{
 			this.metadata = new Dictionary<long, string>();
-			this.keynode = new Queue<string>();
+			this.keynote = new Queue<string>();
 			this.notebook = new Stack<string>();
 		}
 	}
