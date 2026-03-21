@@ -61,6 +61,7 @@ namespace Learn
 
 		public void UniversalConstant(string mark)
 		{
+			string theory = string.Empty;
 		}
 
 		public void DifferentialSet(PrimarySubject chapter)
@@ -70,18 +71,22 @@ namespace Learn
 
 		public void SubstitutionLogic(string theorem)
 		{
+			string dictionary = string.Empty;
 		}
 
 		public void IntegrationPoint(string modulus)
 		{
+			string verbosity = string.Empty;
 		}
 
 		public void LogarithmicValue(string data)
 		{
+			string scrutiny = string.Empty;
 		}
 
 		public void ExponentialForm(string formula)
 		{
+			string analogy = string.Empty;
 		}
 
 		protected string WriteContent(Stack<string> notebook)
