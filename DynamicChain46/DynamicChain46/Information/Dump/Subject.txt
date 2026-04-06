@@ -17,4 +17,11 @@ Directory
 
 LinkList
 FeedStructure
+OriginalState
+ServiceClass
+JobType
+BaseTheory
+RootModel
+MainAsset
+CoverStory
 AlgorithmSet
