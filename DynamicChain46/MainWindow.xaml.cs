@@ -13,6 +13,8 @@ namespace DynamicChain46
 
 			Learn.Study myStudy = new Learn.Study();
 			Trade.Share aShare = new Trade.Share();
+			Network.Channel newChannel = new Network.Channel();
+			Information.Subject firstSubject = new Information.Subject();
 		}
 	}
 }
