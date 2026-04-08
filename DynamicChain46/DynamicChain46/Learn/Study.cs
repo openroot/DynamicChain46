@@ -1,9 +1,5 @@
-﻿// Main Namespaces (Libraries)
-
-namespace DynamicChain46.Learn
+﻿namespace DynamicChain46.Learn
 {
-	// Basic Enums (Options)
-
 	public enum MainSource
 	{
 		None,
@@ -19,12 +15,8 @@ namespace DynamicChain46.Learn
 		Philosophy
 	}
 
-	// Generic Classes (Instances)
-
 	public class Study
 	{
-		// General Properties (Attributes)
-
 		private Dictionary<long, string> metadata { get; set; }
 		protected Queue<string> keynote { get; set; }
 		public string hashtag { get; set; }
@@ -35,8 +27,6 @@ namespace DynamicChain46.Learn
 		public string dataset { get; set; }
 		public string formula { get; set; }
 		protected Stack<string> notebook { get; set; }
-
-		// Constructor Functions (Initialisations)
 
 		public Study()
 		{
@@ -51,8 +41,6 @@ namespace DynamicChain46.Learn
 			this.formula = string.Empty;
 			this.notebook = new Stack<string>();
 		}
-
-		// Regular Functions (Methods)
 
 		private string CompileIndex(Dictionary<long, string> metadata)
 		{
@@ -123,8 +111,6 @@ namespace DynamicChain46.Learn
 			string calligraphy = this.notebook.ToString() ?? string.Empty;
 			return calligraphy;
 		}
-
-		// Destructor Functions (Terminations)
 
 		~Study()
 		{

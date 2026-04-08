@@ -1,10 +1,6 @@
-﻿// Main Namespaces (Libraries)
-
-namespace DynamicChain46.Trade
+﻿namespace DynamicChain46.Trade
 {
-	// Basic Enums (Options)
-
-	public enum EquityCatalogue
+	public enum IndexCatalogue
 	{
 		None,
 		Finance,
@@ -15,49 +11,41 @@ namespace DynamicChain46.Trade
 		Healthcare,
 		Agriculture,
 		Handicraft,
-		Textile,
+		Textiles,
 		Realty
 	}
 
-	// Generic Classes (Instances)
-
 	public class Share
 	{
-		// General Properties (Attributes)
-
-		private Dictionary<long, string> @record { get; set; }
+		private Dictionary<long, string> crypto { get; set; }
 		protected Queue<string> series { get; set; }
-		public string state { get; set; }
+		public string status { get; set; }
 		public string detail { get; set; }
-		public EquityCatalogue @group { get; set; }
+		public IndexCatalogue equity { get; set; }
 		public string factor { get; set; }
 		public string amount { get; set; }
 		public string serial { get; set; }
-		public string note { get; set; }
+		public string report { get; set; }
 		protected Stack<string> market { get; set; }
-
-		// Constructor Functions (Initialisations)
 
 		public Share()
 		{
-			this.record = new Dictionary<long, string>();
+			this.crypto = new Dictionary<long, string>();
 			this.series = new Queue<string>();
-			this.state = string.Empty;
+			this.status = string.Empty;
 			this.detail = string.Empty;
-			this.group = EquityCatalogue.None;
+			this.equity = IndexCatalogue.None;
 			this.factor = string.Empty;
 			this.amount = string.Empty;
 			this.serial = string.Empty;
-			this.note = string.Empty;
+			this.report = string.Empty;
 			this.market = new Stack<string>();
 		}
 
-		// Regular Functions (Methods)
-
-		private string SourceProfile(Dictionary<long, string> @record)
+		private string SourceProfile(Dictionary<long, string> crypto)
 		{
-			this.record = record;
-			string shareholder = this.record.ToString() ?? string.Empty;
+			this.crypto = crypto;
+			string shareholder = this.crypto.ToString() ?? string.Empty;
 			return shareholder;
 		}
 
@@ -68,24 +56,24 @@ namespace DynamicChain46.Trade
 			return dividend;
 		}
 
-		public string BatchIdentity(string state)
+		public string BatchIdentity(string status)
 		{
-			this.state = state;
-			string component = this.state.ToString();
-			return component;
+			this.status = status;
+			string allotment = this.status.ToString();
+			return allotment;
 		}
 
 		public string AssetDescription(string detail)
 		{
 			this.detail = detail;
-			string assignment = this.detail.ToString();
-			return assignment;
+			string statistics = this.detail.ToString();
+			return statistics;
 		}
 
-		public string SortCategory(EquityCatalogue @group)
+		public string ShortlistCategory(IndexCatalogue equity)
 		{
-			this.group = group;
-			string appendix = this.group.ToString();
+			this.equity = equity;
+			string appendix = this.equity.ToString();
 			return appendix;
 		}
 
@@ -96,24 +84,24 @@ namespace DynamicChain46.Trade
 			return registration;
 		}
 
-		public string DistributeFund(string amount)
+		public string FundDistribution(string amount)
 		{
 			this.amount = amount;
-			string investment = this.amount.ToString();
-			return investment;
+			string assignment = this.amount.ToString();
+			return assignment;
 		}
 
 		public string CompanyReference(string serial)
 		{
 			this.serial = serial;
-			string allocation = this.serial;
+			string allocation = this.serial.ToString();
 			return allocation;
 		}
 
-		public string ActiveRepository(string note)
+		public string ActiveRepository(string report)
 		{
-			this.note = note;
-			string management = this.note.ToString();
+			this.report = report;
+			string management = this.report.ToString();
 			return management;
 		}
 
@@ -124,19 +112,17 @@ namespace DynamicChain46.Trade
 			return exchange;
 		}
 
-		// Destructor Functions (Terminations)
-
 		~Share()
 		{
-			this.record = new Dictionary<long, string>();
+			this.crypto = new Dictionary<long, string>();
 			this.series = new Queue<string>();
-			this.state = string.Empty;
+			this.status = string.Empty;
 			this.detail = string.Empty;
-			this.group = EquityCatalogue.None;
+			this.equity = IndexCatalogue.None;
 			this.factor = string.Empty;
 			this.amount = string.Empty;
 			this.serial = string.Empty;
-			this.note = string.Empty;
+			this.report = string.Empty;
 			this.market = new Stack<string>();
 		}
 	}

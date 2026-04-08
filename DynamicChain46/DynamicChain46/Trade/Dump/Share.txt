@@ -2,7 +2,7 @@ Trade
 
 Share
 
-EquityCatalogue
+IndexCatalogue
 
 Finance
 Currency
@@ -12,38 +12,38 @@ Technology
 Healthcare
 Agriculture
 Handicraft
-Textile
+Textiles
 Realty
 
-record
+crypto
 series
-state
+status
 detail
-group
+equity
 factor
 amount
 serial
-note
+report
 market
 
 SourceProfile
 ResourceAccount
 BatchIdentity
 AssetDescription
-SortCategory
+ShortlistCategory
 LedgerBalance
-DistributeFund
+FundDistribution
 CompanyReference
 ActiveRepository
 StockInventory
 
 shareholder
 dividend
-component
-assignment
+allotment
+statistics
 appendix
 registration
-investment
+assignment
 allocation
 management
 exchange
