@@ -1,129 +1,129 @@
 ﻿namespace DynamicChain46.Network
 {
-	public enum GridRecord
+	public enum SiteRecord
 	{
 		None,
 		Coordinate,
 		Zone,
 		Contact,
-		Name,
+		Identity,
 		Address,
 		Location,
-		Post,
+		Stamp,
 		State,
-		Pin,
+		Affix,
 		Country
 	}
 
 	public class Channel
 	{
-		private Dictionary<long, string>  { get; set; }
-		protected Queue<string>  { get; set; }
-		public string  { get; set; }
-		public string  { get; set; }
-		public   { get; set; }
-		public string  { get; set; }
-		public string  { get; set; }
-		public string  { get; set; }
-		public string  { get; set; }
-		protected Stack<string>  { get; set; }
+		private Dictionary<long, string> grade { get; set; }
+		protected Queue<string> macro { get; set; }
+		public string level { get; set; }
+		public string scale { get; set; }
+		public SiteRecord cloud { get; set; }
+		public string label { get; set; }
+		public string drive { get; set; }
+		public string cycle { get; set; }
+		public string layer { get; set; }
+		protected Stack<string> crawl { get; set; }
 
-		public ()
+		public Channel()
 		{
-			this. = new Dictionary<long, string>();
-			this. = new Queue<string>();
-			this. = string.Empty;
-			this. = string.Empty;
-			this. = .None;
-			this. = string.Empty;
-			this. = string.Empty;
-			this. = string.Empty;
-			this. = string.Empty;
-			this. = new Stack<string>();
+			this.grade = new Dictionary<long, string>();
+			this.macro = new Queue<string>();
+			this.level = string.Empty;
+			this.scale = string.Empty;
+			this.cloud = SiteRecord.None;
+			this.label = string.Empty;
+			this.drive = string.Empty;
+			this.cycle = string.Empty;
+			this.layer = string.Empty;
+			this.crawl = new Stack<string>();
 		}
 
-		private string (Dictionary<long, string> )
+		private string StarTopology(Dictionary<long, string> grade)
 		{
-			this. = ;
-			string  = this..ToString() ?? string.Empty;
-			return ;
+			this.grade = grade;
+			string formation = this.grade.ToString() ?? string.Empty;
+			return formation;
 		}
 
-		protected string (Queue<string> )
+		protected string BatchNumber(Queue<string> macro)
 		{
-			this. = ;
-			string  = this..ToString() ?? string.Empty;
-			return ;
+			this.macro = macro;
+			string resolution = this.macro.ToString() ?? string.Empty;
+			return resolution;
 		}
 
-		public string (string )
+		public string SystemCode(string level)
 		{
-			this. = ;
-			string  = this..ToString();
-			return ;
+			this.level = level;
+			string framework = this.level.ToString();
+			return framework;
 		}
 
-		public string (string )
+		public string FullFormat(string scale)
 		{
-			this. = ;
-			string  = this..ToString();
-			return ;
+			this.scale = scale;
+			string expression = this.scale.ToString();
+			return expression;
 		}
 
-		public string ( )
+		public string ListDomain(SiteRecord cloud)
 		{
-			this. = ;
-			string  = this..ToString();
-			return ;
+			this.cloud = cloud;
+			string direction = this.cloud.ToString();
+			return direction;
 		}
 
-		public string (string )
+		public string BindChart(string label)
 		{
-			this. = ;
-			string  = this..ToString();
-			return ;
+			this.label = label;
+			string conversion = this.label.ToString();
+			return conversion;
 		}
 
-		public string (string )
+		public string LineOption(string drive)
 		{
-			this. = ;
-			string  = this..ToString();
-			return ;
+			this.drive = drive;
+			string mechanism = this.drive.ToString();
+			return mechanism;
 		}
 
-		public string (string )
+		public string LogPattern(string cycle)
 		{
-			this. = ;
-			string  = this..ToString();
-			return ;
+			this.cycle = cycle;
+			string collection = this.cycle.ToString();
+			return collection;
 		}
 
-		public string (string )
+		public string CompactStyle(string layer)
 		{
-			this. = ;
-			string  = this..ToString();
-			return ;
+			this.layer = layer;
+			string extension = this.layer.ToString();
+			return extension;
 		}
 
-		protected string (Stack<string> )
+		protected string CurrentAccount(Stack<string> crawl)
 		{
-			this. = ;
-			string  = this..ToString() ?? string.Empty;
-			return ;
+			this.crawl = crawl;
+			string transcript = this.crawl.ToString() ?? string.Empty;
+			return transcript;
 		}
 
-		~()
+		~Channel()
 		{
-			this. = new Dictionary<long, string>();
-			this. = new Queue<string>();
-			this. = string.Empty;
-			this. = string.Empty;
-			this. = .None;
-			this. = string.Empty;
-			this. = string.Empty;
-			this. = string.Empty;
-			this. = string.Empty;
-			this. = new Stack<string>();
+			this.grade = new Dictionary<long, string>();
+			this.macro = new Queue<string>();
+			this.level = string.Empty;
+			this.scale = string.Empty;
+			this.cloud = SiteRecord.None;
+			this.label = string.Empty;
+			this.drive = string.Empty;
+			this.cycle = string.Empty;
+			this.layer = string.Empty;
+			this.crawl = new Stack<string>();
 		}
 	}
 }
