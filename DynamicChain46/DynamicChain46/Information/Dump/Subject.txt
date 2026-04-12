@@ -15,6 +15,17 @@ Linguistic
 Blog
 Directory
 
+routine
+bracket
+article
+compose
+concept
+setting
+project
+workout
+program
+grammar
+
 LinkList
 FeedStructure
 OriginalState
@@ -25,3 +36,14 @@ RootModel
 MainAsset
 CoverStory
 AlgorithmSet
+
+schedule
+syllabus
+material
+abstract
+discreet
+playlist
+security
+exercise
+specimen
+language
