@@ -73,8 +73,8 @@
 		public string JobProfile(KnowledgeBank concept)
 		{
 			this.concept = concept;
-			string discreet = this.concept.ToString();
-			return discreet;
+			string discrete = this.concept.ToString();
+			return discrete;
 		}
 
 		public string BaseTheory(string formula)

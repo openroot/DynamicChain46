@@ -41,7 +41,7 @@ schedule
 syllabus
 material
 abstract
-discreet
+discrete
 booklist
 security
 exercise
