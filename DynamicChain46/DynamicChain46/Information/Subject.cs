@@ -1,10 +1,10 @@
 ﻿namespace DynamicChain46.Information
 {
-	public enum DataBank
+	public enum KnowledgeBank
 	{
 		None,
 		Content,
-		Media,
+		Multimedia,
 		Document,
 		Diagram,
 		Infographic,
@@ -21,8 +21,8 @@
 		protected Queue<string> bracket { get; set; }
 		public string article { get; set; }
 		public string compose { get; set; }
-		public DataBank concept { get; set; }
-		public string setting { get; set; }
+		public KnowledgeBank concept { get; set; }
+		public string formula { get; set; }
 		public string project { get; set; }
 		public string workout { get; set; }
 		public string program { get; set; }
@@ -34,8 +34,8 @@
 			this.bracket = new Queue<string>();
 			this.article = string.Empty;
 			this.compose = string.Empty;
-			this.concept = DataBank.None;
-			this.setting = string.Empty;
+			this.concept = KnowledgeBank.None;
+			this.formula = string.Empty;
 			this.project = string.Empty;
 			this.workout = string.Empty;
 			this.program = string.Empty;
@@ -70,18 +70,18 @@
 			return @abstract;
 		}
 
-		public string JobType(DataBank concept)
+		public string JobProfile(KnowledgeBank concept)
 		{
 			this.concept = concept;
 			string discreet = this.concept.ToString();
 			return discreet;
 		}
 
-		public string BaseTheory(string setting)
+		public string BaseTheory(string formula)
 		{
-			this.setting = setting;
-			string playlist = this.setting.ToString();
-			return playlist;
+			this.formula = formula;
+			string booklist = this.formula.ToString();
+			return booklist;
 		}
 
 		public string RootModel(string project)
@@ -118,8 +118,8 @@
 			this.bracket = new Queue<string>();
 			this.article = string.Empty;
 			this.compose = string.Empty;
-			this.concept = DataBank.None;
-			this.setting = string.Empty;
+			this.concept = KnowledgeBank.None;
+			this.formula = string.Empty;
 			this.project = string.Empty;
 			this.workout = string.Empty;
 			this.program = string.Empty;

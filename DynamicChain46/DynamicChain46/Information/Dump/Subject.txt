@@ -2,10 +2,10 @@ Information
 
 Subject
 
-DataBank
+KnowledgeBank
 
 Content
-Media
+Multimedia
 Document
 Diagram
 Infographic
@@ -20,7 +20,7 @@ bracket
 article
 compose
 concept
-setting
+formula
 project
 workout
 program
@@ -30,7 +30,7 @@ LinkList
 FeedStructure
 OriginalState
 ServiceClass
-JobType
+JobProfile
 BaseTheory
 RootModel
 MainAsset
@@ -42,7 +42,7 @@ syllabus
 material
 abstract
 discreet
-playlist
+booklist
 security
 exercise
 specimen
