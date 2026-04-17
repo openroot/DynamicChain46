@@ -10,6 +10,8 @@ Compile
 TorrentPool
 
 Scaffold
+Project
+Stream
 
 context
 
@@ -30,6 +32,8 @@ Design
 PrimeOrganisation
 
 Institute
+Centre
+Department
 
 permutation
 
@@ -50,6 +54,8 @@ Process
 ProductBase
 
 Resource
+Produce
+Electronics
 
 contract
 
@@ -70,6 +76,8 @@ Statement
 ServiceTerm
 
 Testimony
+Language
+Copyright
 
 company
 
@@ -90,6 +98,8 @@ Data
 MemoryUnit
 
 File
+Folder
+Container
 
 object
 
@@ -110,6 +120,8 @@ Execute
 UnitType
 
 Machine
+Chip
+Frame
 
 dimension
 
