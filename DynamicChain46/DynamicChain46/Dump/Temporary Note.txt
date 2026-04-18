@@ -42,10 +42,16 @@ Centre
 Department
 
 permutation
+documentary
+exploration
 
 GridArchitecture
+InitialContract
+CommonPipeline
 
 combination
+accounting
+automation
 
 ()
 
@@ -64,10 +70,16 @@ Produce
 Electronics
 
 contract
+function
+equation
 
 BrandSetup
+SystemAnalysis
+RecurringValue
 
 marketplace
+watchlist
+edition
 
 ()
 
@@ -86,10 +98,16 @@ Language
 Copyright
 
 company
+generic
+element
 
 PublicDesignation
+PushBalance
+PullMechanism
 
 signature
+comparison
+production
 
 ()
 
@@ -108,10 +126,16 @@ Folder
 Container
 
 object
+schema
+symbol
 
 PrimitiveType
+ReferentialData
+AssociativeClass
 
 instance
+storage
+model
 
 ()
 
