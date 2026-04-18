@@ -9,9 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="DynamicChain46\Business\Dump\" />
+    <Folder Include="DynamicChain46\Database\Dump\" />
+    <Folder Include="DynamicChain46\Hardware\Dump\" />
     <Folder Include="DynamicChain46\Information\Dump\" />
     <Folder Include="DynamicChain46\Learn\Dump\" />
     <Folder Include="DynamicChain46\Network\Dump\" />
+    <Folder Include="DynamicChain46\Profession\Dump\" />
+    <Folder Include="DynamicChain46\Software\Dump\" />
+    <Folder Include="DynamicChain46\Structure\Dump\" />
     <Folder Include="DynamicChain46\Trade\Dump\" />
   </ItemGroup>
 </Project>
