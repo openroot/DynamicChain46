@@ -12,11 +12,11 @@ TorrentPool
 Scaffold
 Project
 Directive
-Application
 Instruction
+Application
 Differentiation
-Operation
 Integration
+Operation
 Ordinance
 Stream
 
