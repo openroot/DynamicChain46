@@ -11,13 +11,13 @@ TorrentPool
 
 Scaffold
 Project
-Directive
-Instruction
+Framework
 Application
+Serialisation
 Differentiation
+Deserialisation
 Integration
-Operation
-Ordinance
+Terminal
 Stream
 
 context
@@ -163,7 +163,7 @@ Circuit
 Instrument
 Insulation
 Component
-Accessory
+Accessories
 Device
 Frame
 
