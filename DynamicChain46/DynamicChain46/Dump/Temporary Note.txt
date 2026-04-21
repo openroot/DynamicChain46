@@ -11,6 +11,13 @@ TorrentPool
 
 Scaffold
 Project
+Directive
+Application
+Instruction
+Differentiation
+Operation
+Integration
+Ordinance
 Stream
 
 context
@@ -151,6 +158,13 @@ UnitType
 
 Machine
 Chip
+Cabinet
+Circuit
+Instrument
+Insulation
+Component
+Accessory
+Device
 Frame
 
 dimension
