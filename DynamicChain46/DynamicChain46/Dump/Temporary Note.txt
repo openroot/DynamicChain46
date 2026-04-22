@@ -11,12 +11,12 @@ TorrentPool
 
 Scaffold
 Project
-Framework
-Application
-Serialisation
-Differentiation
-Deserialisation
-Integration
+Virtual
+Pseudo
+Digital
+Portal
+Analogue
+Adhoc
 Terminal
 Stream
 
@@ -158,13 +158,13 @@ UnitType
 
 Machine
 Chip
-Cabinet
-Circuit
-Instrument
-Insulation
-Component
-Accessories
 Device
+Circuit
+Robot
+Vault
+Mobile
+Component
+Console
 Frame
 
 dimension
