@@ -160,9 +160,9 @@ Machine
 Chip
 Device
 Circuit
-Robot
-Vault
 Mobile
+Vault
+Robot
 Component
 Console
 Frame
